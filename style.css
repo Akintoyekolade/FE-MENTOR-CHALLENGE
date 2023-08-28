@@ -7,22 +7,24 @@
 
     body {
         margin: 0;
+        background-color: hsl(212, 45%, 89%);
     }
 
-    main {
-        background-color: hsl(212, 45%, 89%);
+    main {        
         font-family: 'Outfit-VariableFont_wght', sans-serif;
         text-align: center;   
-        padding-bottom: 64px;     
+        padding-bottom: 64px;             
     }
 
     .card-container {         
         display: inline-block;
         border-radius: 20px;  
-        margin: 80px;     
+        margin: 20px;    
+        margin-bottom: 80px; 
         box-shadow: 0px 4px 24px rgba(31, 50, 81, 0.15); 
         background-color: white;
-        padding: 16px;
+        padding: 16px;  
+        justify-content: flex-start    
     }
 
 
